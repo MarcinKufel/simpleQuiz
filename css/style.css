@@ -1,3 +1,19 @@
 .body {
     background-color: #aaa;
 };
+
+.question {
+
+}
+
+.question--hidden {
+display: none;
+}
+
+.result {
+    padding: 20px;
+}
+
+.resultButton {
+    padding: 5px;
+}
