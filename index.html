@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,29 +8,35 @@
     <title>Simple Quiz</title>
     <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body class="body">
-    <header>
-        <h1>Simple quiz</h1>
-    </header>
-    <main>
-        <h2>Question</h2>
-        <section class="question js-question1">
-            <h3>What is which tag you put all visible content</h3>
-            <form>
-                <div><input type="radio" value="1">body</div>
-                <div><input type="radio" value="0">head</div>
-            </form>
-        </section>
-        <section class="question question--hidden js-question2">
-            <h3>How many levels do we have in header tag</h3>
-            <form>
-                <div><input type="radio" value="0">5</div>
-                <div><input type="radio" value="1">6</div>
-            </form>
-        </section>
-        <section class="result">
-            <button class="resultButton js-resultButton">Check the answer</button>
-        </section>
-    </main>
+    <div class="container">
+        <header>
+            <h1>Simple quiz</h1>
+        </header>
+        <main>
+            <h2>Question</h2>
+            <section class="question js-question1">
+                <h3>In which tag you put all visible content</h3>
+                <form class="form js-form">
+                    <div><input type="radio" class="js-answer" value="1">body</div>
+                    <div><input type="radio" class="" value="0">head</div>
+                    <button class="resultButton js-resultButton">Check the answer</button>
+                </form>
+            </section>
+            <section class="question question--hidden js-question2">
+                <h3>How many levels do we have in header tag</h3>
+                <form class="form js-form2">
+                    <div><input type="radio" value="0">5</div>
+                    <div><input type="radio" value="1">6</div>
+                    <button class="resultButton js-resultButton">Check the answer</button>
+                </form>
+            </section>
+            <section class="result js-result">
+
+            </section>
+        </main>
+    </div>
 </body>
+
 </html>
