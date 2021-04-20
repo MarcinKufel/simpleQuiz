@@ -1,3 +1,12 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+
 .body {
     background-color: #aaa;
 };
@@ -16,4 +25,7 @@ display: none;
 
 .resultButton {
     padding: 5px;
+    margin: 15px 0;
+    border-radius: 10px;
+    border: none;
 }
