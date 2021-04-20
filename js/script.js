@@ -78,3 +78,111 @@ question3.classList.add("question--hidden");
 question4.classList.remove("question--hidden");
 
 })
+
+
+form4.addEventListener("submit", (event) => {
+    event.preventDefault();
+
+if (answer[6].value == 1 && answer[6].checked) {
+    sum = sum + 1;
+    console.log(`Dobra odpowiedz ! Suma punktów: ${sum}`);
+} else {
+    console.log(`Zła odpowiedz ! Suma punktów: ${sum}`);
+}
+
+question4.classList.add("question--hidden");
+question5.classList.remove("question--hidden");
+
+})
+
+
+form5.addEventListener("submit", (event) => {
+    event.preventDefault();
+
+if (answer[8].value == 1 && answer[8].checked) {
+    sum = sum + 1;
+    console.log(`Dobra odpowiedz ! Suma punktów: ${sum}`);
+} else {
+    console.log(`Zła odpowiedz ! Suma punktów: ${sum}`);
+}
+
+question5.classList.add("question--hidden");
+question6.classList.remove("question--hidden");
+
+})
+
+form6.addEventListener("submit", (event) => {
+    event.preventDefault();
+
+if (answer[11].value == 1 && answer[11].checked) {
+    sum = sum + 1;
+    console.log(`Dobra odpowiedz ! Suma punktów: ${sum}`);
+} else {
+    console.log(`Zła odpowiedz ! Suma punktów: ${sum}`);
+}
+
+question6.classList.add("question--hidden");
+question7.classList.remove("question--hidden");
+
+})
+
+form7.addEventListener("submit", (event) => {
+    event.preventDefault();
+
+if (answer[12].value == 1 && answer[12].checked) {
+    sum = sum + 1;
+    console.log(`Dobra odpowiedz ! Suma punktów: ${sum}`);
+} else {
+    console.log(`Zła odpowiedz ! Suma punktów: ${sum}`);
+}
+
+question7.classList.add("question--hidden");
+question8.classList.remove("question--hidden");
+
+})
+
+form8.addEventListener("submit", (event) => {
+    event.preventDefault();
+
+if (answer[15].value == 1 && answer[15].checked) {
+    sum = sum + 1;
+    console.log(`Dobra odpowiedz ! Suma punktów: ${sum}`);
+} else {
+    console.log(`Zła odpowiedz ! Suma punktów: ${sum}`);
+}
+
+question8.classList.add("question--hidden");
+question9.classList.remove("question--hidden");
+
+})
+
+form9.addEventListener("submit", (event) => {
+    event.preventDefault();
+
+if (answer[16].value == 1 && answer[16].checked) {
+    sum = sum + 1;
+    console.log(`Dobra odpowiedz ! Suma punktów: ${sum}`);
+} else {
+    console.log(`Zła odpowiedz ! Suma punktów: ${sum}`);
+}
+
+question9.classList.add("question--hidden");
+question10.classList.remove("question--hidden");
+
+})
+
+form10.addEventListener("submit", (event) => {
+    event.preventDefault();
+
+if (answer[18].value == 1 && answer[18].checked) {
+    sum = sum + 1;
+    console.log(`Dobra odpowiedz ! Suma punktów: ${sum}`);
+} else {
+    console.log(`Zła odpowiedz ! Suma punktów: ${sum}`);
+}
+
+question6.classList.add("question--hidden");
+
+console.log(`Suma punktów w całym quizie wynosi: ${sum}`);
+
+})
