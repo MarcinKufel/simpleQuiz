@@ -11,7 +11,7 @@ const question10 = document.querySelector(".js-question10");
 
 
 const resultButton = document.querySelector(".js-resultButton")
-const result = document.querySelector("js-result");
+const result = document.querySelector(".js-result");
 
 const form = document.querySelector(".js-form");
 const form2 = document.querySelector(".js-form2");
@@ -39,9 +39,9 @@ form.addEventListener("submit", (event) => {
 
 if (answer[0].value == 1 && answer[0].checked) {
     sum = sum + 1;
-    console.log(`Dobra odpowiedz ! Suma punktów: ${sum}`);
+    result.innerHTML = `Good answer ! Your score: ${sum}`;
 } else {
-    console.log(`Zła odpowiedz ! Suma punktów: ${sum}`);
+    result.innerHTML = `Bad answer ! Your score: ${sum}`;
 }
 
 question1.classList.add("question--hidden");
@@ -54,9 +54,9 @@ form2.addEventListener("submit", (event) => {
 
 if (answer[3].value == 1 && answer[3].checked) {
     sum = sum + 1;
-    console.log(`Dobra odpowiedz ! Suma punktów: ${sum}`);
+    result.innerHTML = `Good answer ! Your score: ${sum}`;
 } else {
-    console.log(`Zła odpowiedz ! Suma punktów: ${sum}`);
+    result.innerHTML = `Bad answer ! Your score: ${sum}`;
 }
 
 question2.classList.add("question--hidden");
@@ -69,9 +69,9 @@ form3.addEventListener("submit", (event) => {
 
 if (answer[5].value == 1 && answer[5].checked) {
     sum = sum + 1;
-    console.log(`Dobra odpowiedz ! Suma punktów: ${sum}`);
+    result.innerHTML = `Good answer ! Your score: ${sum}`;
 } else {
-    console.log(`Zła odpowiedz ! Suma punktów: ${sum}`);
+    result.innerHTML = `Bad answer ! Your score: ${sum}`;
 }
 
 question3.classList.add("question--hidden");
@@ -85,9 +85,9 @@ form4.addEventListener("submit", (event) => {
 
 if (answer[6].value == 1 && answer[6].checked) {
     sum = sum + 1;
-    console.log(`Dobra odpowiedz ! Suma punktów: ${sum}`);
+    result.innerHTML = `Good answer ! Your score: ${sum}`;
 } else {
-    console.log(`Zła odpowiedz ! Suma punktów: ${sum}`);
+    result.innerHTML = `Bad answer ! Your score: ${sum}`;
 }
 
 question4.classList.add("question--hidden");
@@ -101,9 +101,9 @@ form5.addEventListener("submit", (event) => {
 
 if (answer[8].value == 1 && answer[8].checked) {
     sum = sum + 1;
-    console.log(`Dobra odpowiedz ! Suma punktów: ${sum}`);
+    result.innerHTML = `Good answer ! Your score: ${sum}`;
 } else {
-    console.log(`Zła odpowiedz ! Suma punktów: ${sum}`);
+    result.innerHTML = `Bad answer ! Your score: ${sum}`;
 }
 
 question5.classList.add("question--hidden");
@@ -116,9 +116,9 @@ form6.addEventListener("submit", (event) => {
 
 if (answer[11].value == 1 && answer[11].checked) {
     sum = sum + 1;
-    console.log(`Dobra odpowiedz ! Suma punktów: ${sum}`);
+    result.innerHTML = `Good answer ! Your score: ${sum}`;
 } else {
-    console.log(`Zła odpowiedz ! Suma punktów: ${sum}`);
+    result.innerHTML = `Bad answer ! Your score: ${sum}`;
 }
 
 question6.classList.add("question--hidden");
@@ -131,9 +131,9 @@ form7.addEventListener("submit", (event) => {
 
 if (answer[12].value == 1 && answer[12].checked) {
     sum = sum + 1;
-    console.log(`Dobra odpowiedz ! Suma punktów: ${sum}`);
+    result.innerHTML = `Good answer ! Your score: ${sum}`;
 } else {
-    console.log(`Zła odpowiedz ! Suma punktów: ${sum}`);
+    result.innerHTML = `Bad answer ! Your score: ${sum}`;
 }
 
 question7.classList.add("question--hidden");
@@ -146,9 +146,9 @@ form8.addEventListener("submit", (event) => {
 
 if (answer[15].value == 1 && answer[15].checked) {
     sum = sum + 1;
-    console.log(`Dobra odpowiedz ! Suma punktów: ${sum}`);
+    result.innerHTML = `Good answer ! Your score: ${sum}`;
 } else {
-    console.log(`Zła odpowiedz ! Suma punktów: ${sum}`);
+    result.innerHTML = `Bad answer ! Your score: ${sum}`;
 }
 
 question8.classList.add("question--hidden");
@@ -161,9 +161,9 @@ form9.addEventListener("submit", (event) => {
 
 if (answer[16].value == 1 && answer[16].checked) {
     sum = sum + 1;
-    console.log(`Dobra odpowiedz ! Suma punktów: ${sum}`);
+    result.innerHTML = `Good answer ! Your score: ${sum}`;
 } else {
-    console.log(`Zła odpowiedz ! Suma punktów: ${sum}`);
+    result.innerHTML = `Bad answer ! Your score: ${sum}`;
 }
 
 question9.classList.add("question--hidden");
@@ -176,13 +176,12 @@ form10.addEventListener("submit", (event) => {
 
 if (answer[18].value == 1 && answer[18].checked) {
     sum = sum + 1;
-    console.log(`Dobra odpowiedz ! Suma punktów: ${sum}`);
+    result.innerHTML = `Good answer ! Your final score: ${sum}`;
 } else {
-    console.log(`Zła odpowiedz ! Suma punktów: ${sum}`);
+    result.innerHTML = `Bad answer ! Your final score: ${sum}`;
 }
 
-question6.classList.add("question--hidden");
-
-console.log(`Suma punktów w całym quizie wynosi: ${sum}`);
+question10.classList.add("question--hidden");
 
 })
+
