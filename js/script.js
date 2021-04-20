@@ -67,14 +67,14 @@ question3.classList.remove("question--hidden");
 form3.addEventListener("submit", (event) => {
     event.preventDefault();
 
-if (answer[3].value == 1 && answer[3].checked) {
+if (answer[5].value == 1 && answer[5].checked) {
     sum = sum + 1;
     console.log(`Dobra odpowiedz ! Suma punktów: ${sum}`);
 } else {
     console.log(`Zła odpowiedz ! Suma punktów: ${sum}`);
 }
 
-question2.classList.add("question--hidden");
-question3.classList.remove("question--hidden");
+question3.classList.add("question--hidden");
+question4.classList.remove("question--hidden");
 
 })
