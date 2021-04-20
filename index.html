@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Quiz</title>
     <link href="css/style.css" rel="stylesheet">
+    <script src="js/script.js" defer></script>
 </head>
 
 <body class="body">
@@ -19,8 +20,8 @@
             <section class="question js-question1">
                 <h3>In which tag you put all visible content</h3>
                 <form class="form js-form">
-                    <div><input type="radio" class="js-answer" value="1">body</div>
-                    <div><input type="radio" class="" value="0">head</div>
+                    <label>body<input type="radio" name="question1" class="js-answer" value="1"></label>
+                    <label>head<input type="radio" name="question1" class="js-answer1" value="0"></label>
                     <button class="resultButton js-resultButton">Check the answer</button>
                 </form>
             </section>

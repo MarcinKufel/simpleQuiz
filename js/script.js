@@ -9,20 +9,19 @@ const form2 = document.querySelector(".js-form2");
 
 let sum = 0;
 
-console.log("dddds");
 
-form.addEventListener("click", (event) => {
+
+form.addEventListener("submit", (event) => {
     event.preventDefault();
 
-const answer = document.querySelector(".js-answer");
+const answer = document.querySelectorAll(".js-answer");
 
-if (answer) {
+if (answer[0].value == 1 && answer[0].checked) {
     sum = sum + 1;
-    console.log(sum);
+    console.log(`Dobra odpowiedz ! Suma punktów: ${sum}`);
+} else {
+    console.log(`Zła odpowiedz ! Suma punktów: ${sum}`);
 }
-
-console.log(sum);
 
 })
 
-console.log(sum);
