@@ -14,7 +14,7 @@ html {
 
 .container {
 background-color: rgb(230, 210, 33);
-width: 500px;
+max-width: 500px;
 margin: auto;
 text-align: center;
 border-radius: 20px;
@@ -26,6 +26,10 @@ color: black;
 
 .question--hidden {
 display: none;
+}
+
+.list {
+    list-style: none;
 }
 
 .result {
