@@ -32,11 +32,11 @@ let sum = 0;
 form.addEventListener("submit", (event) => {
     event.preventDefault();
 
-    if (answers[0].checked === false && answers[1].checked === false) {
-        result.innerHTML = `Please check any answer`;
+    if (!answers[0].checked && !answers[1].checked) {
+        result.innerHTML = "Please check any answer";
 
     } else if (answers[0].value && answers[0].checked) {
-        sum = sum + 1;
+        sum++;
         result.innerHTML = `Good answer! Your score: ${sum}`;
         question1.classList.add("question--hidden");
         question2.classList.remove("question--hidden");
@@ -50,11 +50,11 @@ form.addEventListener("submit", (event) => {
 form2.addEventListener("submit", (event) => {
     event.preventDefault();
 
-    if (answers[2].checked === false && answers[3].checked === false) {
-        result.innerHTML = `Please check any answer`;
+    if (!answers[2].checked && !answers[3].checked) {
+        result.innerHTML = "Please check any answer";
 
     } else if (answers[3].value && answers[3].checked) {
-        sum = sum + 1;
+        sum++;
         result.innerHTML = `Good answer! Your score: ${sum}`;
         question2.classList.add("question--hidden");
         question3.classList.remove("question--hidden");
@@ -68,11 +68,11 @@ form2.addEventListener("submit", (event) => {
 form3.addEventListener("submit", (event) => {
     event.preventDefault();
 
-    if (answers[4].checked === false && answers[5].checked === false) {
-        result.innerHTML = `Please check any answer`;
+    if (!answers[4].checked && !answers[5].checked) {
+        result.innerHTML = "Please check any answer";
 
     } else if (answers[5].value && answers[5].checked) {
-        sum = sum + 1;
+        sum++;
         result.innerHTML = `Good answer! Your score: ${sum}`;
         question3.classList.add("question--hidden");
         question4.classList.remove("question--hidden");
@@ -87,11 +87,11 @@ form3.addEventListener("submit", (event) => {
 form4.addEventListener("submit", (event) => {
     event.preventDefault();
 
-    if (answers[6].checked === false && answers[7].checked === false) {
-        result.innerHTML = `Please check any answer`;
+    if (!answers[6].checked && !answers[7].checked) {
+        result.innerHTML = "Please check any answer";
 
     } else if (answers[6].value && answers[6].checked) {
-        sum = sum + 1;
+        sum++;
         result.innerHTML = `Good answer! Your score: ${sum}`;
         question4.classList.add("question--hidden");
         question5.classList.remove("question--hidden");
@@ -105,11 +105,11 @@ form4.addEventListener("submit", (event) => {
 form5.addEventListener("submit", (event) => {
     event.preventDefault();
 
-    if (answers[8].checked === false && answers[9].checked === false) {
-        result.innerHTML = `Please check any answer`;
+    if (!answers[8].checked && !answers[9].checked) {
+        result.innerHTML = "Please check any answer";
 
     } else if (answers[8].value && answers[8].checked) {
-        sum = sum + 1;
+        sum++;
         result.innerHTML = `Good answer! Your score: ${sum}`;
         question5.classList.add("question--hidden");
         question6.classList.remove("question--hidden");
@@ -123,11 +123,11 @@ form5.addEventListener("submit", (event) => {
 form6.addEventListener("submit", (event) => {
     event.preventDefault();
 
-    if (answers[10].checked === false && answers[11].checked === false) {
-        result.innerHTML = `Please check any answer`;
+    if (!answers[10].checked && !answers[11].checked) {
+        result.innerHTML = "Please check any answer";
 
     } else if (answers[11].value && answers[11].checked) {
-        sum = sum + 1;
+        sum++;
         result.innerHTML = `Good answer! Your score: ${sum}`;
         question6.classList.add("question--hidden");
         question7.classList.remove("question--hidden");
@@ -141,11 +141,11 @@ form6.addEventListener("submit", (event) => {
 form7.addEventListener("submit", (event) => {
     event.preventDefault();
 
-    if (answers[12].checked === false && answers[13].checked === false) {
-        result.innerHTML = `Please check any answer`;
+    if (!answers[12].checked && !answers[13].checked) {
+        result.innerHTML = "Please check any answer";
 
     } else if (answers[12].value && answers[12].checked) {
-        sum = sum + 1;
+        sum++;
         result.innerHTML = `Good answer! Your score: ${sum}`;
         question7.classList.add("question--hidden");
         question8.classList.remove("question--hidden");
@@ -159,11 +159,11 @@ form7.addEventListener("submit", (event) => {
 form8.addEventListener("submit", (event) => {
     event.preventDefault();
 
-    if (answers[14].checked === false && answers[15].checked === false) {
-        result.innerHTML = `Please check any answer`;
+    if (!answers[14].checked && !answers[15].checked) {
+        result.innerHTML = "Please check any answer";
 
     } else if (answers[15].value && answers[15].checked) {
-        sum = sum + 1;
+        sum++;
         result.innerHTML = `Good answer! Your score: ${sum}`;
         question8.classList.add("question--hidden");
         question9.classList.remove("question--hidden");
@@ -177,11 +177,11 @@ form8.addEventListener("submit", (event) => {
 form9.addEventListener("submit", (event) => {
     event.preventDefault();
 
-    if (answers[16].checked === false && answers[17].checked === false) {
-        result.innerHTML = `Please check any answer`;
+    if (!answers[16].checked && !answers[17].checked) {
+        result.innerHTML = "Please check any answer";
 
     } else if (answers[16].value && answers[16].checked) {
-        sum = sum + 1;
+        sum++;
         result.innerHTML = `Good answer! Your score: ${sum}`;
         question9.classList.add("question--hidden");
         question10.classList.remove("question--hidden");
@@ -195,11 +195,11 @@ form9.addEventListener("submit", (event) => {
 form10.addEventListener("submit", (event) => {
     event.preventDefault();
 
-    if (answers[18].checked === false && answers[19].checked === false) {
-        result.innerHTML = `Please check any answer`;
+    if (!answers[18].checked && !answers[19].checked) {
+        result.innerHTML = "Please check any answer";
 
     } else if (answers[18].value && answers[18].checked) {
-        sum = sum + 1;
+        sum++;
         result.innerHTML = `Good answer! Your final score: ${sum}`;
         question10.classList.add("question--hidden");
     } else {
