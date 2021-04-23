@@ -34,7 +34,6 @@ form.addEventListener("submit", (event) => {
 
     if (!answers[0].checked && !answers[1].checked) {
         result.innerHTML = "Please check any answer";
-
     } else if (answers[0].value && answers[0].checked) {
         sum++;
         result.innerHTML = `Good answer! Your score: ${sum}`;
@@ -52,7 +51,6 @@ form2.addEventListener("submit", (event) => {
 
     if (!answers[2].checked && !answers[3].checked) {
         result.innerHTML = "Please check any answer";
-
     } else if (answers[3].value && answers[3].checked) {
         sum++;
         result.innerHTML = `Good answer! Your score: ${sum}`;
@@ -70,7 +68,6 @@ form3.addEventListener("submit", (event) => {
 
     if (!answers[4].checked && !answers[5].checked) {
         result.innerHTML = "Please check any answer";
-
     } else if (answers[5].value && answers[5].checked) {
         sum++;
         result.innerHTML = `Good answer! Your score: ${sum}`;
@@ -89,7 +86,6 @@ form4.addEventListener("submit", (event) => {
 
     if (!answers[6].checked && !answers[7].checked) {
         result.innerHTML = "Please check any answer";
-
     } else if (answers[6].value && answers[6].checked) {
         sum++;
         result.innerHTML = `Good answer! Your score: ${sum}`;
@@ -107,7 +103,6 @@ form5.addEventListener("submit", (event) => {
 
     if (!answers[8].checked && !answers[9].checked) {
         result.innerHTML = "Please check any answer";
-
     } else if (answers[8].value && answers[8].checked) {
         sum++;
         result.innerHTML = `Good answer! Your score: ${sum}`;
@@ -125,7 +120,6 @@ form6.addEventListener("submit", (event) => {
 
     if (!answers[10].checked && !answers[11].checked) {
         result.innerHTML = "Please check any answer";
-
     } else if (answers[11].value && answers[11].checked) {
         sum++;
         result.innerHTML = `Good answer! Your score: ${sum}`;
@@ -143,7 +137,6 @@ form7.addEventListener("submit", (event) => {
 
     if (!answers[12].checked && !answers[13].checked) {
         result.innerHTML = "Please check any answer";
-
     } else if (answers[12].value && answers[12].checked) {
         sum++;
         result.innerHTML = `Good answer! Your score: ${sum}`;
@@ -161,7 +154,6 @@ form8.addEventListener("submit", (event) => {
 
     if (!answers[14].checked && !answers[15].checked) {
         result.innerHTML = "Please check any answer";
-
     } else if (answers[15].value && answers[15].checked) {
         sum++;
         result.innerHTML = `Good answer! Your score: ${sum}`;
@@ -179,7 +171,6 @@ form9.addEventListener("submit", (event) => {
 
     if (!answers[16].checked && !answers[17].checked) {
         result.innerHTML = "Please check any answer";
-
     } else if (answers[16].value && answers[16].checked) {
         sum++;
         result.innerHTML = `Good answer! Your score: ${sum}`;
@@ -197,7 +188,6 @@ form10.addEventListener("submit", (event) => {
 
     if (!answers[18].checked && !answers[19].checked) {
         result.innerHTML = "Please check any answer";
-
     } else if (answers[18].value && answers[18].checked) {
         sum++;
         result.innerHTML = `Good answer! Your final score: ${sum}`;
@@ -209,6 +199,5 @@ form10.addEventListener("submit", (event) => {
 })
 
 reloadButton.addEventListener("click", () => {
-
     location.reload();
 })
