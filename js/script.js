@@ -1,13 +1,4 @@
-const question1 = document.querySelector(".js-question1");
-const question2 = document.querySelector(".js-question2");
-const question3 = document.querySelector(".js-question3");
-const question4 = document.querySelector(".js-question4");
-const question5 = document.querySelector(".js-question5");
-const question6 = document.querySelector(".js-question6");
-const question7 = document.querySelector(".js-question7");
-const question8 = document.querySelector(".js-question8");
-const question9 = document.querySelector(".js-question9");
-const question10 = document.querySelector(".js-question10");
+const question = document.querySelectorAll(".js-question");
 const resultButton = document.querySelector(".js-resultButton")
 const result = document.querySelector(".js-result");
 const form = document.querySelectorAll(".js-form");
@@ -24,12 +15,12 @@ form[0].addEventListener("submit", (event) => {
     } else if (answers[0].value && answers[0].checked) {
         sum++;
         result.innerHTML = `Good answer! Your score: ${sum}`;
-        question1.classList.add("question--hidden");
-        question2.classList.remove("question--hidden");
+        question[0].classList.add("question--hidden");
+        question[1].classList.remove("question--hidden");
     } else {
         result.innerHTML = `Bad answer! Your score: ${sum}`;
-        question1.classList.add("question--hidden");
-        question2.classList.remove("question--hidden");
+        question[0].classList.add("question--hidden");
+        question[1].classList.remove("question--hidden");
     }
 })
 
@@ -41,12 +32,12 @@ form[1].addEventListener("submit", (event) => {
     } else if (answers[3].value && answers[3].checked) {
         sum++;
         result.innerHTML = `Good answer! Your score: ${sum}`;
-        question2.classList.add("question--hidden");
-        question3.classList.remove("question--hidden");
+        question[1].classList.add("question--hidden");
+        question[2].classList.remove("question--hidden");
     } else {
         result.innerHTML = `Bad answer! Your score: ${sum}`;
-        question2.classList.add("question--hidden");
-        question3.classList.remove("question--hidden");
+        question[1].classList.add("question--hidden");
+        question[2].classList.remove("question--hidden");
     }
 })
 
@@ -58,12 +49,12 @@ form[2].addEventListener("submit", (event) => {
     } else if (answers[5].value && answers[5].checked) {
         sum++;
         result.innerHTML = `Good answer! Your score: ${sum}`;
-        question3.classList.add("question--hidden");
-        question4.classList.remove("question--hidden");
+        question[2].classList.add("question--hidden");
+        question[3].classList.remove("question--hidden");
     } else {
         result.innerHTML = `Bad answer! Your score: ${sum}`;
-        question3.classList.add("question--hidden");
-        question4.classList.remove("question--hidden");
+        question[2].classList.add("question--hidden");
+        question[3].classList.remove("question--hidden");
     }
 })
 
@@ -76,12 +67,12 @@ form[3].addEventListener("submit", (event) => {
     } else if (answers[6].value && answers[6].checked) {
         sum++;
         result.innerHTML = `Good answer! Your score: ${sum}`;
-        question4.classList.add("question--hidden");
-        question5.classList.remove("question--hidden");
+        question[3].classList.add("question--hidden");
+        question[4].classList.remove("question--hidden");
     } else {
         result.innerHTML = `Bad answer! Your score: ${sum}`;
-        question4.classList.add("question--hidden");
-        question5.classList.remove("question--hidden");
+        question[3].classList.add("question--hidden");
+        question[4].classList.remove("question--hidden");
     }
 })
 
@@ -93,12 +84,12 @@ form[4].addEventListener("submit", (event) => {
     } else if (answers[8].value && answers[8].checked) {
         sum++;
         result.innerHTML = `Good answer! Your score: ${sum}`;
-        question5.classList.add("question--hidden");
-        question6.classList.remove("question--hidden");
+        question[4].classList.add("question--hidden");
+        question[5].classList.remove("question--hidden");
     } else {
         result.innerHTML = `Bad answer! Your score: ${sum}`;
-        question5.classList.add("question--hidden");
-        question6.classList.remove("question--hidden");
+        question[4].classList.add("question--hidden");
+        question[5].classList.remove("question--hidden");
     }
 })
 
@@ -110,12 +101,12 @@ form[5].addEventListener("submit", (event) => {
     } else if (answers[11].value && answers[11].checked) {
         sum++;
         result.innerHTML = `Good answer! Your score: ${sum}`;
-        question6.classList.add("question--hidden");
-        question7.classList.remove("question--hidden");
+        question[5].classList.add("question--hidden");
+        question[6].classList.remove("question--hidden");
     } else {
         result.innerHTML = `Bad answer! Your score: ${sum}`;
-        question6.classList.add("question--hidden");
-        question7.classList.remove("question--hidden");
+        question[5].classList.add("question--hidden");
+        question[6].classList.remove("question--hidden");
     }
 })
 
@@ -127,12 +118,12 @@ form[6].addEventListener("submit", (event) => {
     } else if (answers[12].value && answers[12].checked) {
         sum++;
         result.innerHTML = `Good answer! Your score: ${sum}`;
-        question7.classList.add("question--hidden");
-        question8.classList.remove("question--hidden");
+        question[6].classList.add("question--hidden");
+        question[7].classList.remove("question--hidden");
     } else {
         result.innerHTML = `Bad answer! Your score: ${sum}`;
-        question7.classList.add("question--hidden");
-        question8.classList.remove("question--hidden");
+        question[6].classList.add("question--hidden");
+        question[7].classList.remove("question--hidden");
     }
 })
 
@@ -144,12 +135,12 @@ form[7].addEventListener("submit", (event) => {
     } else if (answers[15].value && answers[15].checked) {
         sum++;
         result.innerHTML = `Good answer! Your score: ${sum}`;
-        question8.classList.add("question--hidden");
-        question9.classList.remove("question--hidden");
+        question[7].classList.add("question--hidden");
+        question[8].classList.remove("question--hidden");
     } else {
         result.innerHTML = `Bad answer! Your score: ${sum}`;
-        question8.classList.add("question--hidden");
-        question9.classList.remove("question--hidden");
+        question[7].classList.add("question--hidden");
+        question[8].classList.remove("question--hidden");
     }
 })
 
@@ -161,12 +152,12 @@ form[8].addEventListener("submit", (event) => {
     } else if (answers[16].value && answers[16].checked) {
         sum++;
         result.innerHTML = `Good answer! Your score: ${sum}`;
-        question9.classList.add("question--hidden");
-        question10.classList.remove("question--hidden");
+        question[8].classList.add("question--hidden");
+        question[9].classList.remove("question--hidden");
     } else {
         result.innerHTML = `Bad answer! Your score: ${sum}`;
-        question9.classList.add("question--hidden");
-        question10.classList.remove("question--hidden");
+        question[8].classList.add("question--hidden");
+        question[9].classList.remove("question--hidden");
     }
 })
 
@@ -178,10 +169,10 @@ form[9].addEventListener("submit", (event) => {
     } else if (answers[18].value && answers[18].checked) {
         sum++;
         result.innerHTML = `Good answer! Your final score: ${sum}`;
-        question10.classList.add("question--hidden");
+        question[9].classList.add("question--hidden");
     } else {
         result.innerHTML = `Bad answer! Your final score: ${sum}`;
-        question10.classList.add("question--hidden");
+        question[9].classList.add("question--hidden");
     }
 })
 
