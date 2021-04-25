@@ -8,28 +8,15 @@ const question7 = document.querySelector(".js-question7");
 const question8 = document.querySelector(".js-question8");
 const question9 = document.querySelector(".js-question9");
 const question10 = document.querySelector(".js-question10");
-
 const resultButton = document.querySelector(".js-resultButton")
 const result = document.querySelector(".js-result");
-
-const form = document.querySelector(".js-form");
-const form2 = document.querySelector(".js-form2");
-const form3 = document.querySelector(".js-form3");
-const form4 = document.querySelector(".js-form4");
-const form5 = document.querySelector(".js-form5");
-const form6 = document.querySelector(".js-form6");
-const form7 = document.querySelector(".js-form7");
-const form8 = document.querySelector(".js-form8");
-const form9 = document.querySelector(".js-form9");
-const form10 = document.querySelector(".js-form10");
-
+const form = document.querySelectorAll(".js-form");
 const reloadButton = document.querySelector(".js-reloadButton");
-
 const answers = document.querySelectorAll(".js-answer");
 
 let sum = 0;
 
-form.addEventListener("submit", (event) => {
+form[0].addEventListener("submit", (event) => {
     event.preventDefault();
 
     if (!answers[0].checked && !answers[1].checked) {
@@ -46,7 +33,7 @@ form.addEventListener("submit", (event) => {
     }
 })
 
-form2.addEventListener("submit", (event) => {
+form[1].addEventListener("submit", (event) => {
     event.preventDefault();
 
     if (!answers[2].checked && !answers[3].checked) {
@@ -63,7 +50,7 @@ form2.addEventListener("submit", (event) => {
     }
 })
 
-form3.addEventListener("submit", (event) => {
+form[2].addEventListener("submit", (event) => {
     event.preventDefault();
 
     if (!answers[4].checked && !answers[5].checked) {
@@ -81,7 +68,7 @@ form3.addEventListener("submit", (event) => {
 })
 
 
-form4.addEventListener("submit", (event) => {
+form[3].addEventListener("submit", (event) => {
     event.preventDefault();
 
     if (!answers[6].checked && !answers[7].checked) {
@@ -98,7 +85,7 @@ form4.addEventListener("submit", (event) => {
     }
 })
 
-form5.addEventListener("submit", (event) => {
+form[4].addEventListener("submit", (event) => {
     event.preventDefault();
 
     if (!answers[8].checked && !answers[9].checked) {
@@ -115,7 +102,7 @@ form5.addEventListener("submit", (event) => {
     }
 })
 
-form6.addEventListener("submit", (event) => {
+form[5].addEventListener("submit", (event) => {
     event.preventDefault();
 
     if (!answers[10].checked && !answers[11].checked) {
@@ -132,7 +119,7 @@ form6.addEventListener("submit", (event) => {
     }
 })
 
-form7.addEventListener("submit", (event) => {
+form[6].addEventListener("submit", (event) => {
     event.preventDefault();
 
     if (!answers[12].checked && !answers[13].checked) {
@@ -149,7 +136,7 @@ form7.addEventListener("submit", (event) => {
     }
 })
 
-form8.addEventListener("submit", (event) => {
+form[7].addEventListener("submit", (event) => {
     event.preventDefault();
 
     if (!answers[14].checked && !answers[15].checked) {
@@ -166,7 +153,7 @@ form8.addEventListener("submit", (event) => {
     }
 })
 
-form9.addEventListener("submit", (event) => {
+form[8].addEventListener("submit", (event) => {
     event.preventDefault();
 
     if (!answers[16].checked && !answers[17].checked) {
@@ -183,7 +170,7 @@ form9.addEventListener("submit", (event) => {
     }
 })
 
-form10.addEventListener("submit", (event) => {
+form[9].addEventListener("submit", (event) => {
     event.preventDefault();
 
     if (!answers[18].checked && !answers[19].checked) {
