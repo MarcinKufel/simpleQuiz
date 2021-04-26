@@ -177,5 +177,17 @@ form[9].addEventListener("submit", (event) => {
 })
 
 reloadButton.addEventListener("click", () => {
-    location.reload();
+
+
+    for (i = 1; i <= 9; i++) {
+        if (answers[i].checked) {
+            answers[i].checked = false;
+            question[i].classList.add("section__question--hidden");
+        } else {
+            question[i].classList.add("section__question--hidden");
+        }
+    }
+    question[0].classList.remove("section__question--hidden");
+    sum = 0;
+    result.innerHTML = "";
 })
