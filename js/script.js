@@ -1,5 +1,5 @@
 const question = document.querySelectorAll(".js-question");
-const resultButton = document.querySelector(".js-resultButton")
+const resultButton = document.querySelector(".js-section__resultButton")
 const result = document.querySelector(".js-result");
 const form = document.querySelectorAll(".js-form");
 const reloadButton = document.querySelector(".js-reloadButton");

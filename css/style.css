@@ -36,7 +36,7 @@ display: none;
     padding: 20px;
 }
 
-.resultButton {
+.section__resultButton {
     padding: 5px;
     margin: 15px 0;
     border-radius: 10px;
@@ -44,7 +44,7 @@ display: none;
     box-shadow: 1px 1px 5px;
 }
 
-.resultButton:hover {
+.section__resultButton:hover {
     background-color:rgba(209, 42, 20, 0.589);
     color:white;
 }
