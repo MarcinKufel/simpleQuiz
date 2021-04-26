@@ -20,31 +20,8 @@ text-align: center;
 border-radius: 20px;
 box-shadow: 2px 2px 6px;
 }
-.section__question {
-color: black;
-}
 
-.section__question--hidden {
-display: none;
-}
-
-.section__list {
-    list-style: none;
-}
 
 .result {
     padding: 20px;
-}
-
-.section__resultButton {
-    padding: 5px;
-    margin: 15px 0;
-    border-radius: 10px;
-    border: none;
-    box-shadow: 1px 1px 5px;
-}
-
-.section__resultButton:hover {
-    background-color:rgba(209, 42, 20, 0.589);
-    color:white;
 }
