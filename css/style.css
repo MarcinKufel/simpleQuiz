@@ -20,15 +20,15 @@ text-align: center;
 border-radius: 20px;
 box-shadow: 2px 2px 6px;
 }
-.question {
+.section__question {
 color: black;
 }
 
-.question--hidden {
+.section__question--hidden {
 display: none;
 }
 
-.list {
+.section__list {
     list-style: none;
 }
 
