@@ -178,7 +178,7 @@ form[9].addEventListener("submit", (event) => {
 
 reloadButton.addEventListener("click", () => {
 
-    for (i = 1; i <= 9; i++) {
+    for (i = 0; i <= 9; i++) {
         if (answers[i].checked) {
             answers[i].checked = false;
             question[i].classList.add("section__question--hidden");
