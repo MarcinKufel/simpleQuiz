@@ -4,4 +4,5 @@ Simple quiz with questions about HTML, CSS and JS. When you check the answer, yo
 https://marcinkufel.github.io/simpleQuiz/
 
 ## technologies
+- HTML
 
