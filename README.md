@@ -5,4 +5,5 @@ https://marcinkufel.github.io/simpleQuiz/
 
 ## technologies
 - HTML
+- CSS
 
