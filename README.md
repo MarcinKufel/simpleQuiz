@@ -7,3 +7,4 @@ https://marcinkufel.github.io/simpleQuiz/
 - HTML
 - CSS
 - JavaScript
+- BEM
