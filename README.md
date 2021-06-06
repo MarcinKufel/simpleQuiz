@@ -8,3 +8,4 @@ https://marcinkufel.github.io/simpleQuiz/
 - CSS
 - JavaScript
 - BEM
+- ES6+
