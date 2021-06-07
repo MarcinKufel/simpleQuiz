@@ -9,3 +9,4 @@ https://marcinkufel.github.io/simpleQuiz/
 - JavaScript
 - BEM
 - ES6+
+- Other
